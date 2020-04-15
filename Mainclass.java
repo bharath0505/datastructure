@@ -9,14 +9,16 @@ public class Mainclass {
 		
 		//BubbleSort bubbleSort = new BubbleSort();
 		
-		SelectionSort selectionSort = new SelectionSort();
+		//SelectionSort selectionSort = new SelectionSort();
+		
+		InsertionSort insertionSort = new InsertionSort();
 		
 		System.out.println("Before Sorting...");
-		selectionSort.display(a);
+		insertionSort.display(a);
 		
-		int[] sort = selectionSort.sort(a);
+		int[] sort = insertionSort.sort(a);
 		System.out.println("\nAfter Sorting.....");
-		selectionSort.display(sort);
+		insertionSort.display(sort);
 		
 		System.out.println("\nmain() ends........");
 	}
